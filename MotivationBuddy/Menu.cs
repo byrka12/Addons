@@ -26,7 +26,7 @@ namespace MotivationBuddy
             FirstMenu.Add("Delay", new Slider("- Delay Slider", 100, 0, 10000));
             FirstMenu.AddSeparator();
             FirstMenu.Add("Spam", new KeyBind("- Spam text below", false, KeyBind.BindTypes.HoldActive, 'G'));
-            FirstMenu.Add("SpamText", new ComboBox("- Spam Text @all", 0, "/all Ez", "/all GG", "/all Bad", "/all L2P", "/all you suck"));
+            FirstMenu.Add("SpamText", new ComboBox("- Spam Text @all", 0, "/all Ez", "/all GG", "/all Bad", "/all L2P", "/all you suck", "/all You're Bot learn how to play));
             FirstMenu.AddSeparator(35);
             FirstMenu.Add("Mastery", new CheckBox("- Spam mastery badge"));
             FirstMenu.Add("Laugh", new CheckBox("- Spam laught"));
